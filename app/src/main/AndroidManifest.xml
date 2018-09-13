@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.szcbit.SGFlexSys">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Loginpage"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BarcodeActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.szcbit.SGFlexSys.DeviceTestActivity" />
+        </activity>
+        <!--
+        <activity
+            android:name=".HardwareSerialActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.szcbit.SGFlexSys.DeviceTestActivity" />
+        </activity>
+        <activity
+            android:name=".IntrusionActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.szcbit.SGFlexSys.DeviceTestActivity" />
+        </activity>
+        <activity
+            android:name=".BarcodeActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.szcbit.SGFlexSys.DeviceTestActivity" />
+        </activity>
+        <activity
+            android:name=".SymbologyActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.szcbit.SGFlexSys.BarcodeActivity" />
+        </activity>
+        -->
+        <!--
+            <activity
+            android:name=".Loginpage"
+            android:label="@string/title_activity_loginpage"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivatePacks"
+            android:label="@string/title_activity_activate_packs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReceivePacks"
+            android:label="@string/title_activity_receive_packs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PackReport"
+            android:label="@string/title_activity_pack_report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppSetup"
+            android:label="@string/title_activity_app_setup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrintTest"
+            android:label="@string/title_activity_print_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BTDeviceList"
+            android:label="@string/title_activity_btdevice_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

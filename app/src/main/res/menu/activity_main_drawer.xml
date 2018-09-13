@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+       <!-- <item
+            android:id="@+id/nav_camera"
+           android:title="Single Ticket Validation" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="Batch Ticket Validation" />
+
+        &lt;!&ndash; android:icon="@drawable/ic_menu_gallery"&ndash;&gt;
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="Receive Packs" />
+        <item
+            android:id="@+id/nav_manage"
+
+            android:title="Activate Packs" />
+
+        <item
+            android:id="@+id/returnpacks"
+
+            android:title="Return packs" />
+
+        <item
+            android:id="@+id/Orders"
+
+            android:title="Orders" />-->
+
+    </group>
+
+    <!--<item android:title="Reports">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Book Report" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Ticket Report" />
+        </menu>
+    </item>-->
+
+</menu>

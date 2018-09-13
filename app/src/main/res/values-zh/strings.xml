@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">X1 设备测试</string>
+    <string name="button_barcode">条码扫描测试</string>
+    <string name="button_intrusion_detection">入侵检测测试</string>
+    <string name="button_serial_number">硬件序列号</string>
+    <string name="label_sdk_ver">SDK版本:</string>
+    <string name="label_serial">硬件序列号:</string>
+    <string name="label_imei">MEID:</string>
+    <string name="label_imei1">IMEI #1:</string>
+    <string name="label_imei2">IMEI #2:</string>
+    <string name="label_hacked">硬件入侵检测状态:</string>
+    <string name="label_hacked_date">入侵时间:</string>
+    <string name="button_intrusion_reset">清除入侵检测记录</string>
+    <string name="label_trigger_mode">扫描触发模式:</string>
+    <string name="radio_trigger_software">软件触发</string>
+    <string name="radio_trigger_key">扫描按键</string>
+    <string name="radio_trigger_auto">自动检测</string>
+    <string name="radio_trigger_presentation">常开/连续扫描</string>
+    <string name="button_software_trigger">软件扫描扳机</string>
+    <string name="label_symbology">码制:</string>
+    <string name="label_bar">条码数据:</string>
+    <string name="button_symbologies">条码码制</string>
+    <string name="label_duplicated_barcode">过滤重复条码</string>
+</resources>
